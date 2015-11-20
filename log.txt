@@ -1,0 +1,31 @@
+05-20 14:17:52.780: D/libEGL(4028): loaded /system/lib/egl/libEGL_mali.so
+05-20 14:17:52.800: D/libEGL(4028): loaded /system/lib/egl/libGLESv1_CM_mali.so
+05-20 14:17:52.800: D/libEGL(4028): loaded /system/lib/egl/libGLESv2_mali.so
+05-20 14:17:52.805: D/(4028): Device driver API match
+05-20 14:17:52.805: D/(4028): Device driver API version: 10
+05-20 14:17:52.805: D/(4028): User space API version: 10 
+05-20 14:17:52.805: D/(4028): mali: REVISION=Linux-r2p4-02rel0 BUILD_DATE=Tue Oct 16 15:37:13 KST 2012 
+05-20 14:17:52.855: D/OpenGLRenderer(4028): Enabling debug mode 0
+05-20 14:17:55.495: D/MainActivity(4028): Starting UpdateService
+05-20 14:17:55.575: D/UpdateService(4028): Started
+05-20 14:17:55.580: D/PYV(4028): Setting Alarm !!!
+05-20 14:18:11.125: D/UpdateService(4831): Started
+05-20 14:18:11.130: D/AndroidRuntime(4831): Shutting down VM
+05-20 14:18:11.130: W/dalvikvm(4831): threadid=1: thread exiting with uncaught exception (group=0x4107b2a0)
+05-20 14:18:11.130: E/AndroidRuntime(4831): FATAL EXCEPTION: main
+05-20 14:18:11.130: E/AndroidRuntime(4831): java.lang.RuntimeException: Unable to start service in.pyv.UpdateService@41cd5a80 with null: java.lang.NullPointerException
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2548)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at android.app.ActivityThread.access$1900(ActivityThread.java:140)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1324)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at android.os.Looper.loop(Looper.java:137)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at android.app.ActivityThread.main(ActivityThread.java:4898)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at java.lang.reflect.Method.invoke(Method.java:511)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1006)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:773)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at dalvik.system.NativeStart.main(Native Method)
+05-20 14:18:11.130: E/AndroidRuntime(4831): Caused by: java.lang.NullPointerException
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at in.pyv.UpdateService.onStartCommand(UpdateService.java:41)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2531)
+05-20 14:18:11.130: E/AndroidRuntime(4831): 	... 10 more

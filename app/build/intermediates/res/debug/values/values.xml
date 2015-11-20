@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/kbhadke/StudioProjects/PYV/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <!-- From: file:/home/kbhadke/StudioProjects/PYV/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Protect Your Vision</string>
+    <string name="cancel_text">Stop protecting</string>
+    <string name="doodle_alert">Protect Your Vision</string>
+    <string name="doodle_found">Please look at anything 20 feet away for 20 seconds!!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="intro_message">Protect your vision using 20-20-20 rule. That is for every 20 minutes, look at anything 20 feet away for 20 seconds.\n\nClick <b>Protect My Vision</b> to activate an alarm. If your screen is ON for 20 minutes, it will notify user.\n\nClick <b>Stop protecting</b> to cancel the alarm.</string>
+    <string name="start_text">Protect My Vision</string>
+    <!-- From: file:/home/kbhadke/StudioProjects/PYV/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+		<item name="android:actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+	</style>
+    <style name="MyActionBar.MenuTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+		<item name="android:textColor">#FFF</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">20sp</item>
+	</style>
+    <style name="Theme.Base" parent="android:Theme.Light"/>
+    <style name="Theme.Sample" parent="Theme.Base"/>
+    <style name="Widget"/>
+    <style name="Widget.SampleOutput">
+		<item name="android:padding">@dimen/margin_medium</item>
+		<item name="android:textAppearance">?android:textAppearanceMedium</item>
+		<item name="android:lineSpacingMultiplier">1.3</item>
+	</style>
+</resources>

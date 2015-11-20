@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Activity themes -->
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+		<item name="android:actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+	</style>
+
+	<style name="MyActionBar.MenuTextStyle"
+		parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+		<item name="android:textColor">#FFF</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">20sp</item>
+	</style>
+
+	<style name="Theme.Base" parent="android:Theme.Light" />
+
+	<style name="Theme.Sample" parent="Theme.Base" />
+
+	<!-- Widget styling -->
+
+	<style name="Widget" />
+
+	<style name="Widget.SampleOutput">
+		<item name="android:padding">@dimen/margin_medium</item>
+		<item name="android:textAppearance">?android:textAppearanceMedium</item>
+		<item name="android:lineSpacingMultiplier">1.3</item>
+	</style>
+
+</resources>
